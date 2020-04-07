@@ -1,0 +1,13 @@
+Phil|Hello
+it's my first line|2020-04-06 20:23:56
+***
+Vetal|Hello
+first message|2020-04-06 20:24:59
+***
+Vetal|Hello
+first message|2020-04-06 20:27:11
+***
+Tester|Test new script |2020-04-06 20:50:18
+***
+Vetal|<script> Hello </script>|2020-04-06 20:52:52
+***
