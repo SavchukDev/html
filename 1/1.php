@@ -1,4 +1,4 @@
-<?php
+`<?php
 /**
  * Создать форму с двумя элементами textarea. При отправке формы скрипт должен выдавать только те слова, которые есть и в первом и во втором поле ввода.
  * Реализацию это логики необходимо поместить в функцию getCommonWords($a, $b), которая будет возвращать массив с общими словами.
@@ -27,15 +27,13 @@ function getCommonWords($a, $b)
         }
     }
     if ($result) {
-        return print_r($result);
-    } else {
-        throw new Exception('No common words');
+        return $result;
     }
+    throw new Exception('No common words');
 }
 
 try {
     getCommonWords($firstText, $secondText);
 } catch (Exception $e) {
-    echo 'Выброшено исключение: ', $e->getMessage();
+    echo $e->getMessage();
 }
-

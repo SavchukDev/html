@@ -10,7 +10,7 @@ function unique_words($str)
     $arr = explode(' ', $str);
     $arr = array_unique($arr);
     $arr = implode(' ', $arr);
-    print_r($arr);
+    return $arr;
 }
 
-unique_words($str);
+print_r(unique_words($str));

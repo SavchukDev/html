@@ -23,15 +23,16 @@ print_r(new_str($str));*/
 
 $str = 'i want to learn php. test. hello world.';
 
-function str($str) {
+function str($str)
+{
     $str = explode('.', $str);
     for ($i = 0; $i < count($str); $i++) {
-        if ($str[$i] == '.') {
-            $str[$i] = ucfirst($str[$i]);
-        }
-    } return $str;
 
+        $str[$i] = ucfirst(trim($str[$i]));
+    }
+    return $str;
 }
+
 
 print_r(str($str));
 

@@ -4,7 +4,7 @@
 
 include '3.html';
 
-$words = $_POST['lenght'];
+$words = $_POST['length'];
 
 /*
 $file_open = fopen("/var/www/example.com/html/3/text.txt", "a");
